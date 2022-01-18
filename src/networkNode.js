@@ -128,7 +128,7 @@ app.post('/receive-new-block', function (req, res) {
     }
 });
 
-// register a node and broadcase it to the network
+// register a node and broadcast it to the network
 app.post('/register-and-broadcast-node', function (req, res) {
     const { newNodeUrl } = req.body;
 
